@@ -1,7 +1,6 @@
-function distributeGifts(packOfGifts, reindeers) {
-  const packOfGiftsWeight = packOfGifts.reduce((acc, cur) => acc + cur.length, 0);
-  const reindeersCapacity = reindeers.reduce((acc, cur) => acc + (cur.length * 2), 0);
-  console.log({packOfGiftsWeight, reindeersCapacity})
+const distributeGifts = (packOfGifts, reindeers) => {
+  const packOfGiftsWeight = packOfGifts.join("").length;
+  const reindeersCapacity = reindeers.join("").length * 2;
   return ~~(reindeersCapacity / packOfGiftsWeight);
 }
 

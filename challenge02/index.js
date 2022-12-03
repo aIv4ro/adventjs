@@ -1,10 +1,9 @@
-function countHours(year, holidays) {
+const countHours = (year, holidays) => {
   return holidays.reduce((acc, holiday) => {
     const date = new Date(`${year}/${holiday}`);
-    const dayOfWeek = date.getDay();
-    if(dayOfWeek === 0 || dayOfWeek === 6) return acc;
-    return acc + 1;
-  }, 0) * 2;
+    if(date.getDay() % 6 === 0) return acc;
+    return acc + 2;
+  }, 0);
 }
 
 const year = 2024;
