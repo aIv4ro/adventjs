@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsnd --clear --respawn ./src/03/index.test.ts"
+    "dev": "tsnd --clear --respawn ./src/04/index.test.ts"
   },
   "author": "Alvaro",
   "license": "ISC",
