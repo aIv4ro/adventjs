@@ -1,5 +1,4 @@
-import { describe, it } from 'node:test'
-import { deepEqual } from 'node:assert/strict'
+import { describe, it, expect } from 'vitest'
 import { findNaughtyStep } from '.'
 
 describe('Reto #2: 🏭 Ponemos en marcha la fábrica', () => {
@@ -7,13 +6,13 @@ describe('Reto #2: 🏭 Ponemos en marcha la fábrica', () => {
     const original = 'iiiii'
     const modified = 'iiiii'
     const result = ''
-    deepEqual(findNaughtyStep(original, modified), result)
+    expect(findNaughtyStep(original, modified)).toBe(result)
   })
 
   it('Si son distintas devuelve la primera letra que las diferencia', () => {
     const original = 'abcd'
     const modified = 'abcde'
     const result = 'e'
-    deepEqual(findNaughtyStep(original, modified), result)
+    expect(findNaughtyStep(original, modified)).toBe(result)
   })
 })
