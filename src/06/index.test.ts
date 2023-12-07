@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { maxDistance } from '.'
 
-describe('Reto #3: 🏭 Ponemos en marcha la fábrica', () => {
+describe('Reto #6: 🦌 Los renos a prueba', () => {
   it('Test #1', () => {
     const movements = '>>*<'
     const result = 2

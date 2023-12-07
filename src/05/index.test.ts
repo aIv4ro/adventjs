@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { cyberReindeer } from '.'
 
-describe('Reto #3: 🏭 Ponemos en marcha la fábrica', () => {
+describe('Reto #5: 🛷 El CyberTruck de Santa', () => {
   it('Si no hay barreras Santa debe avanzar', () => {
     const road = 'S....'
     const time = 5

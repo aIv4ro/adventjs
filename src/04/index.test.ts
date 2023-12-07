@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { decode } from '.'
 
-describe('Reto #3: 🏭 Ponemos en marcha la fábrica', () => {
+describe('Reto #4: 😵‍💫 Dale la vuelta a los paréntesis', () => {
   it('Debe revertir las cadenas dentro de parentesis y devolverla nueva cadena sin parentesis', () => {
     const result = 'hola mundo'
     expect(decode('hola (odnum)')).toBe(result)

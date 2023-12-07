@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { findNaughtyStep } from '.'
 
-describe('Reto #2: 🏭 Ponemos en marcha la fábrica', () => {
+describe('Reto #3: 😏 El elfo travieso', () => {
   it('Si son iguales devuelve un string vacio', () => {
     const original = 'iiiii'
     const modified = 'iiiii'
